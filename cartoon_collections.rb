@@ -15,6 +15,7 @@ end
 def long_planeteer_calls# code an argument here
   # Your code here
   short_words = ["puff", "go", "two"]
+  puts longest.sort!{|a, b| a.length <=> b.length} 
 end
 
 def find_the_cheese# code an argument here
